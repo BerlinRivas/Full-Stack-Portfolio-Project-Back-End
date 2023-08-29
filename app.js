@@ -11,7 +11,7 @@ app.use(express.json());
 
 // ROUTES
 app.get("/", (req, res) => {
-  res.send("Welcome to the Matrix Database");
+  res.send("Welcome to the Matrix");
 });
 
 const matricesController = require("./controllers/matrixController.js");
